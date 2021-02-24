@@ -5,7 +5,7 @@ To replicate:
 - `npm install`
 - `npm run build`
 - `npm run serve`
-- Go to localhost:8080
+- Go to localhost:8000
 
 Console should show:
 
