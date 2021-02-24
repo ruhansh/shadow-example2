@@ -3,13 +3,15 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "build": "shadow-cljs release frontend"
+    "build": "shadow-cljs release frontend",
+    "serve": "static public -p 8000"
   },
   "devDependencies": {
     "shadow-cljs": "2.11.18"
   },
   "dependencies": {
     "bugout": "^0.0.10",
+    "node-static": "^0.7.11",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "readable-stream": "^2.0.2",
